@@ -1,0 +1,21 @@
+APP_PORT=3001
+APP_HOST="localhost"
+
+# for SQL EXPRESS:
+DB_HOST="localhost"
+DB_PORT=1433 
+DB_NAME="dbCodeGenerator"
+DB_USER="tester"
+DB_PSW="test"
+
+#for weatherapi
+WAPI_ADRESS="http://api.weatherapi.com/v1/current.json"
+WAPI_KEY="e9aec46dde664fe7894130032241605"
+WAPI_CITY1="EILAT"
+WAPI_CITY2="TORONTO"
+WAPI_CITY3="KIEV"
+
+#ACCESS_CONTROL_ALLOW_ORIGIN="http://127.0.0.1:3002"
+
+#minutes:
+CODE_VALIDITY_MN = 5 
